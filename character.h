@@ -1,0 +1,10 @@
+#ifndef CHARACTER_H
+#define CHARACTER_H
+
+#define CHARACTER_WIDTH 9
+#define CHARACTER_HEIGHT 18
+#define CHARACTER_NUMBER 96
+
+extern const unsigned char character[CHARACTER_NUMBER - 1][CHARACTER_HEIGHT][CHARACTER_WIDTH];
+
+#endif
